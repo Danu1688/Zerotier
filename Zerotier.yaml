@@ -1,0 +1,14 @@
+proxies:
+- name: danuWs12-Zerotier
+  type: trojan
+  server: sg-do2.sshpremium.my.id
+  port: 443
+  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
+  udp: true
+  sni: gomarketplacecontent-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us
