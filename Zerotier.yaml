@@ -1,14 +1,27 @@
 proxies:
-- name: danuWs12-Zerotier
+- name: DanuNusa1Thn_Live_H1
   type: trojan
-  server: sg-do2.sshpremium.my.id
+  server: circles.asia
   port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
+  password: 59bbe959-d61d-4652-94a4-129dd02a9bb4
   udp: true
-  sni: gomarketplacecontent-cf.zoom.us
+  sni: nusa.idstore.biz.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa.idstore.biz.id
+- name: Akamai3bln_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: bd1483b2-bd25-45f7-ab19-52ca725eb0d7
+  udp: true
+  sni: akamaiz.nontls.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: gomarketplacecontent-cf.zoom.us
+      Host: akamaiz.nontls.my.id
