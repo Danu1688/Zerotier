@@ -1,17 +1,4 @@
 proxies:
-- name: DanuNusa1Thn_Live_IP1
-  type: trojan
-  server: 104.17.224.203
-  port: 443
-  password: f12ce912-30ce-4593-8233-4da9fcbcaa92
-  udp: true
-  sni: nusa.idstore.biz.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: nusa.idstore.biz.id
 - name: Akamai3bln_Live_IP1
   type: trojan
   server: 104.17.224.203
@@ -25,3 +12,16 @@ proxies:
     path: "/trojan"
     headers:
       Host: akamai.inject.my.id
+- name: DanuNusa1Thn_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: f12ce912-30ce-4593-8233-4da9fcbcaa92
+  udp: true
+  sni: nusa.idstore.biz.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa.idstore.biz.id
