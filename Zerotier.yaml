@@ -12,16 +12,16 @@ proxies:
     path: /trojan
     headers:
       Host: nusa.idstore.biz.id
-- name: Akamai3bln_Live_H1
+- name: Akamai3bln_Live_IP1
   type: trojan
-  server: circles.asia
+  server: 104.17.224.203
   port: 443
   password: bd1483b2-bd25-45f7-ab19-52ca725eb0d7
   udp: true
-  sni: akamaiz.nontls.my.id
+  sni: akamai.inject.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojanws"
+    path: "/trojan"
     headers:
-      Host: akamaiz.nontls.my.id
+      Host: akamai.inject.my.id
