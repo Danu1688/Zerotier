@@ -1,9 +1,9 @@
 proxies:
-- name: DanuNusa1Thn_Live_H1
+- name: DanuNusa1Thn_Live_IP1
   type: trojan
-  server: circles.asia
+  server: 104.17.224.203
   port: 443
-  password: 59bbe959-d61d-4652-94a4-129dd02a9bb4
+  password: f12ce912-30ce-4593-8233-4da9fcbcaa92
   udp: true
   sni: nusa.idstore.biz.id
   skip-cert-verify: true
