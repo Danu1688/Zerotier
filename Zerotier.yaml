@@ -1,27 +1,365 @@
 proxies:
-- name: Akamai3bln_Live_IP1
+- name: SvrAkamaiA51_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
-  password: bd1483b2-bd25-45f7-ab19-52ca725eb0d7
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
   udp: true
-  sni: akamai.inject.my.id
+  sni: id.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
-      Host: akamai.inject.my.id
-- name: DanuNusa1Thn_Live_IP1
+      Host: id.dstb.cloud
+- name: SvrAkamaiA51_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+- name: SvrAkamaiA51_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+- name: SvrAkamaiA51_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+- name: SvrAkamaiA51_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+- name: SvrAkamaiA51_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+- name: SvrAkamaiA51_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+- name: SvrAtha51_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
-  password: f12ce912-30ce-4593-8233-4da9fcbcaa92
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
   udp: true
-  sni: nusa.idstore.biz.id
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nusa.idstore.biz.id
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrDo51_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDo51_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDo51_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDo51_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDo51_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDo51_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDo51_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrNusa51_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
