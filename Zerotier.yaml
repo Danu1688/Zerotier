@@ -1,30 +1,4 @@
 proxies:
-- name: SvrAkamaiA51_Live_H1
-  type: trojan
-  server: circles.asia
-  port: 443
-  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
-  udp: true
-  sni: id.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id.dstb.cloud
-- name: SvrAkamaiA51_Live_H2
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
-  udp: true
-  sni: id.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id.dstb.cloud
 - name: SvrAtha51_Live_H1
   type: trojan
   server: circles.asia
